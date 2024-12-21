@@ -73,12 +73,12 @@ namespace MorePartsMod.World
              */
             public bool takeRsources(double quantity)
             {
-                this.Amount -= quantity;
-                if(this.Amount < 0)
-                {
-                    this.Active = false;
-                    return false;
-                }
+                //this.Amount -= quantity;
+                //if(this.Amount < 0)
+                //{
+                //    this.Active = false;
+                //    return false;
+                //}
                 return true;
             }
         }
